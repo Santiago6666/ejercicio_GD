@@ -268,10 +268,67 @@ _data = {
 [sub_resource type="QuadMesh" id="QuadMesh_kdubu"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_d21ai"]
-size = Vector2(221, 6)
+size = Vector2(639, 11)
+
+[sub_resource type="QuadMesh" id="QuadMesh_hqns4"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_x0ka3"]
+size = Vector2(19.5, 16.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_hqns4"]
+size = Vector2(59.5, 17)
+
+[sub_resource type="QuadMesh" id="QuadMesh_0h7mo"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_nr8wp"]
+size = Vector2(38.375, 16.5)
+
+[sub_resource type="QuadMesh" id="QuadMesh_nr8wp"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_k73cj"]
+size = Vector2(18.09375, 16.5)
+
+[sub_resource type="QuadMesh" id="QuadMesh_d2bti"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ta5nu"]
+size = Vector2(57.6875, 16.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_2nhjh"]
+size = Vector2(83.6875, 16.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_fs4d3"]
+size = Vector2(80.6875, 16.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_7vxoj"]
+size = Vector2(15.34375, 51.25)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_ei405"]
+size = Vector2(15.34375, 33.625)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_flf07"]
+size = Vector2(82.6875, 16.5)
+
+[sub_resource type="QuadMesh" id="QuadMesh_k73cj"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_rjqkl"]
+size = Vector2(14.6875, 44)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_bjha6"]
+size = Vector2(62, 16.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e8dv2"]
+size = Vector2(37.75, 16.5)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_d2bti"]
+size = Vector2(39.25, 16.5)
+
+[sub_resource type="QuadMesh" id="QuadMesh_x0ka3"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_0h7mo"]
+size = Vector2(37.375, 17)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_q6r6c"]
-size = Vector2(114, 6)
+size = Vector2(132.5, 16)
 
 [node name="Node2D" type="Node2D" unique_id=835788572]
 
@@ -295,51 +352,805 @@ libraries/ = SubResource("AnimationLibrary_0h7mo")
 [node name="StaticBody2D" type="StaticBody2D" parent="." unique_id=829244538]
 
 [node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D" unique_id=631716390]
-position = Vector2(-0.9999955, 14.999999)
-scale = Vector2(223.99998, 5.5)
+position = Vector2(206.5, 17.625)
+scale = Vector2(638.99994, 10.750002)
 mesh = SubResource("QuadMesh_kdubu")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D" unique_id=312386581]
-position = Vector2(-0.5, 15)
+position = Vector2(206.5, 17.5)
 shape = SubResource("RectangleShape2D_d21ai")
+
+[node name="StaticBody2D3" type="StaticBody2D" parent="." unique_id=1144287810]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D3" unique_id=304669663]
+position = Vector2(46.000004, 4)
+scale = Vector2(18.999998, 16.000002)
+mesh = SubResource("QuadMesh_hqns4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D3" unique_id=2031313978]
+position = Vector2(46, 4)
+shape = SubResource("RectangleShape2D_x0ka3")
+
+[node name="StaticBody2D4" type="StaticBody2D" parent="." unique_id=424185874]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D4" unique_id=1880019391]
+position = Vector2(166, 4)
+scale = Vector2(18.999998, 16.000002)
+mesh = SubResource("QuadMesh_hqns4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D4" unique_id=257731731]
+position = Vector2(166, 4)
+shape = SubResource("RectangleShape2D_x0ka3")
+
+[node name="StaticBody2D5" type="StaticBody2D" parent="." unique_id=460822674]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D5" unique_id=1482818162]
+position = Vector2(342.25, 4)
+scale = Vector2(59.50002, 16.000002)
+mesh = SubResource("QuadMesh_hqns4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D5" unique_id=1285229643]
+position = Vector2(342.25, 4)
+shape = SubResource("RectangleShape2D_hqns4")
+
+[node name="StaticBody2D6" type="StaticBody2D" parent="." unique_id=1161733611]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D6" unique_id=617450217]
+position = Vector2(342, -12)
+scale = Vector2(18.999998, 16.000002)
+mesh = SubResource("QuadMesh_hqns4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D6" unique_id=1907850798]
+position = Vector2(342, -12)
+shape = SubResource("RectangleShape2D_x0ka3")
+
+[node name="StaticBody2D15" type="StaticBody2D" parent="." unique_id=229073425]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D15" unique_id=1317469435]
+modulate = Color(0.16862746, 1, 0.078431375, 1)
+position = Vector2(252.50003, -282)
+scale = Vector2(18.999998, 16.000002)
+mesh = SubResource("QuadMesh_hqns4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D15" unique_id=1659872276]
+position = Vector2(252.5, -282)
+shape = SubResource("RectangleShape2D_x0ka3")
+
+[node name="StaticBody2D18" type="StaticBody2D" parent="." unique_id=160535473]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D18" unique_id=1442084330]
+modulate = Color(0.16862746, 1, 0.078431375, 1)
+position = Vector2(396.5, -282)
+scale = Vector2(38.499992, 16.000002)
+mesh = SubResource("QuadMesh_0h7mo")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D18" unique_id=1095841446]
+position = Vector2(396.5, -283)
+shape = SubResource("RectangleShape2D_nr8wp")
+
+[node name="StaticBody2D21" type="StaticBody2D" parent="." unique_id=1814312557]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D21" unique_id=2064367520]
+modulate = Color(0.16862746, 1, 0.078431375, 1)
+position = Vector2(144, -318)
+scale = Vector2(38.499992, 16.000002)
+mesh = SubResource("QuadMesh_nr8wp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D21" unique_id=1663605488]
+position = Vector2(144, -317)
+shape = SubResource("RectangleShape2D_nr8wp")
+
+[node name="StaticBody2D22" type="StaticBody2D" parent="." unique_id=480372486]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D22" unique_id=1552243927]
+modulate = Color(0.16862746, 1, 0.078431375, 1)
+position = Vector2(58, -318)
+scale = Vector2(38.499992, 16.000002)
+mesh = SubResource("QuadMesh_nr8wp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D22" unique_id=1001580749]
+position = Vector2(58, -318)
+shape = SubResource("RectangleShape2D_nr8wp")
+
+[node name="StaticBody2D34" type="StaticBody2D" parent="." unique_id=1670484628]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D34" unique_id=950355853]
+modulate = Color(1, 0.33333334, 0, 1)
+position = Vector2(-39, -533)
+scale = Vector2(38.499992, 16.000002)
+mesh = SubResource("QuadMesh_nr8wp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D34" unique_id=1316105771]
+modulate = Color(0.96574277, 0.5605403, 1.540184e-06, 1)
+position = Vector2(-41, -533)
+shape = SubResource("RectangleShape2D_nr8wp")
+
+[node name="StaticBody2D35" type="StaticBody2D" parent="." unique_id=545119309]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D35" unique_id=1880398497]
+modulate = Color(1, 0.33333334, 0, 1)
+position = Vector2(-122, -562)
+scale = Vector2(38.499992, 16.000002)
+mesh = SubResource("QuadMesh_nr8wp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D35" unique_id=63707883]
+modulate = Color(0.96574277, 0.5605403, 1.540184e-06, 1)
+position = Vector2(-121, -563)
+shape = SubResource("RectangleShape2D_nr8wp")
+
+[node name="StaticBody2D36" type="StaticBody2D" parent="." unique_id=1759364378]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D36" unique_id=1625106334]
+modulate = Color(1, 0.33333334, 0, 1)
+position = Vector2(-35, -609)
+scale = Vector2(38.499992, 16.000002)
+mesh = SubResource("QuadMesh_nr8wp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D36" unique_id=1194519304]
+modulate = Color(0.96574277, 0.5605403, 1.540184e-06, 1)
+position = Vector2(-35, -610)
+shape = SubResource("RectangleShape2D_nr8wp")
+
+[node name="StaticBody2D41" type="StaticBody2D" parent="." unique_id=1601359366]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D41" unique_id=1268892323]
+modulate = Color(1, 0.33333334, 0, 1)
+position = Vector2(295, -691)
+scale = Vector2(38.499992, 16.000002)
+mesh = SubResource("QuadMesh_nr8wp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D41" unique_id=2102657981]
+modulate = Color(0.96574277, 0.5605403, 1.540184e-06, 1)
+position = Vector2(296, -691)
+shape = SubResource("RectangleShape2D_nr8wp")
+
+[node name="StaticBody2D40" type="StaticBody2D" parent="." unique_id=2067458688]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D40" unique_id=2037155579]
+modulate = Color(1, 0.33333334, 0, 1)
+position = Vector2(110, -691)
+scale = Vector2(17.999998, 16.000002)
+mesh = SubResource("QuadMesh_nr8wp")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D40" unique_id=1921633207]
+modulate = Color(0.96574277, 0.5605403, 1.540184e-06, 1)
+position = Vector2(110, -691)
+shape = SubResource("RectangleShape2D_k73cj")
+
+[node name="StaticBody2D19" type="StaticBody2D" parent="." unique_id=1398378767]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D19" unique_id=868043270]
+modulate = Color(0.16862746, 1, 0.078431375, 1)
+position = Vector2(420.5, -299)
+scale = Vector2(38.499992, 16.000002)
+mesh = SubResource("QuadMesh_0h7mo")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D19" unique_id=931357539]
+position = Vector2(420.5, -299)
+shape = SubResource("RectangleShape2D_nr8wp")
+
+[node name="StaticBody2D20" type="StaticBody2D" parent="." unique_id=748950327]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D20" unique_id=701018831]
+modulate = Color(0.16862746, 1, 0.078431375, 1)
+position = Vector2(469.875, -315)
+scale = Vector2(59.250004, 16.000002)
+mesh = SubResource("QuadMesh_d2bti")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D20" unique_id=1419386128]
+position = Vector2(469.8125, -315)
+shape = SubResource("RectangleShape2D_ta5nu")
+
+[node name="StaticBody2D23" type="StaticBody2D" parent="." unique_id=1999727368]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D23" unique_id=407178314]
+modulate = Color(0.16862746, 1, 0.078431375, 1)
+position = Vector2(-51.375, -318)
+scale = Vector2(59.250004, 16.000002)
+mesh = SubResource("QuadMesh_d2bti")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D23" unique_id=1625919909]
+position = Vector2(-51.375, -319)
+shape = SubResource("RectangleShape2D_ta5nu")
+
+[node name="StaticBody2D24" type="StaticBody2D" parent="." unique_id=1836156020]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D24" unique_id=764101323]
+modulate = Color(0.16862746, 1, 0.078431375, 1)
+position = Vector2(32, -401)
+scale = Vector2(59.250004, 16.000002)
+mesh = SubResource("QuadMesh_d2bti")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D24" unique_id=1108395157]
+position = Vector2(32, -400)
+shape = SubResource("RectangleShape2D_ta5nu")
+
+[node name="StaticBody2D32" type="StaticBody2D" parent="." unique_id=770044624]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D32" unique_id=2018356901]
+modulate = Color(0.93333334, 0.8392157, 0, 1)
+position = Vector2(387, -429)
+scale = Vector2(59.250004, 16.000002)
+mesh = SubResource("QuadMesh_d2bti")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D32" unique_id=984616448]
+position = Vector2(399.15625, -429)
+shape = SubResource("RectangleShape2D_2nhjh")
+
+[node name="StaticBody2D25" type="StaticBody2D" parent="." unique_id=2127314454]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D25" unique_id=2142286936]
+modulate = Color(0.16862746, 1, 0.078431375, 1)
+position = Vector2(32, -481)
+scale = Vector2(59.250004, 16.000002)
+mesh = SubResource("QuadMesh_d2bti")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D25" unique_id=220829466]
+position = Vector2(33, -480)
+shape = SubResource("RectangleShape2D_ta5nu")
+
+[node name="StaticBody2D37" type="StaticBody2D" parent="." unique_id=790314998]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D37" unique_id=409069571]
+modulate = Color(1, 0.33333334, 0, 1)
+position = Vector2(31, -662)
+scale = Vector2(59.250004, 16.000002)
+mesh = SubResource("QuadMesh_d2bti")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D37" unique_id=89314107]
+position = Vector2(31, -662)
+shape = SubResource("RectangleShape2D_ta5nu")
+
+[node name="StaticBody2D39" type="StaticBody2D" parent="." unique_id=1584128138]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D39" unique_id=478624141]
+modulate = Color(1, 0.33333334, 0, 1)
+position = Vector2(193, -661)
+scale = Vector2(59.250004, 16.000002)
+mesh = SubResource("QuadMesh_d2bti")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D39" unique_id=377545405]
+position = Vector2(193, -661)
+shape = SubResource("RectangleShape2D_ta5nu")
+
+[node name="StaticBody2D42" type="StaticBody2D" parent="." unique_id=940731719]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D42" unique_id=2054478315]
+modulate = Color(1, 0.33333334, 0, 1)
+position = Vector2(395.1875, -692)
+scale = Vector2(79.62499, 16.000002)
+mesh = SubResource("QuadMesh_d2bti")
+
+[node name="MeshInstance2D2" type="MeshInstance2D" parent="StaticBody2D42" unique_id=295090998]
+modulate = Color(1, 0.33333334, 0, 1)
+position = Vector2(395.99997, -761)
+scale = Vector2(79.62499, 16.000002)
+mesh = SubResource("QuadMesh_d2bti")
+
+[node name="MeshInstance2D3" type="MeshInstance2D" parent="StaticBody2D42" unique_id=766670536]
+modulate = Color(1, 0.33333334, 0, 1)
+position = Vector2(363.29688, -734.5)
+scale = Vector2(15.406292, 35.000004)
+mesh = SubResource("QuadMesh_d2bti")
+
+[node name="MeshInstance2D4" type="MeshInstance2D" parent="StaticBody2D42" unique_id=1186412925]
+modulate = Color(1, 0.33333334, 0, 1)
+position = Vector2(429, -726.25)
+scale = Vector2(15.406292, 52.500072)
+mesh = SubResource("QuadMesh_d2bti")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D42" unique_id=1446485781]
+position = Vector2(396, -692)
+shape = SubResource("RectangleShape2D_fs4d3")
+
+[node name="CollisionShape2D3" type="CollisionShape2D" parent="StaticBody2D42" unique_id=606800982]
+position = Vector2(428.67188, -725.625)
+shape = SubResource("RectangleShape2D_7vxoj")
+
+[node name="CollisionShape2D4" type="CollisionShape2D" parent="StaticBody2D42" unique_id=751549576]
+position = Vector2(364, -734.8125)
+shape = SubResource("RectangleShape2D_ei405")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D42" unique_id=1093734745]
+position = Vector2(396, -760)
+shape = SubResource("RectangleShape2D_fs4d3")
+
+[node name="StaticBody2D38" type="StaticBody2D" parent="." unique_id=1428407025]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D38" unique_id=815713883]
+modulate = Color(1, 0.33333334, 0, 1)
+position = Vector2(-169.6875, -662)
+scale = Vector2(82.62501, 16.000002)
+mesh = SubResource("QuadMesh_d2bti")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D38" unique_id=238283802]
+position = Vector2(-169.65625, -662)
+shape = SubResource("RectangleShape2D_flf07")
+
+[node name="StaticBody2D26" type="StaticBody2D" parent="." unique_id=1858942087]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D26" unique_id=1781853191]
+modulate = Color(0.16862746, 1, 0.078431375, 1)
+position = Vector2(10.1875, -449)
+scale = Vector2(15.625002, 46.00001)
+mesh = SubResource("QuadMesh_k73cj")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D26" unique_id=606034004]
+position = Vector2(10.65625, -449)
+shape = SubResource("RectangleShape2D_rjqkl")
+
+[node name="StaticBody2D17" type="StaticBody2D" parent="." unique_id=2131622770]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D17" unique_id=814178706]
+modulate = Color(0.16862746, 1, 0.078431375, 1)
+position = Vector2(214.5, -313)
+scale = Vector2(18.999998, 16.000002)
+mesh = SubResource("QuadMesh_hqns4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D17" unique_id=1252346753]
+position = Vector2(213.5, -313)
+shape = SubResource("RectangleShape2D_x0ka3")
+
+[node name="StaticBody2D27" type="StaticBody2D" parent="." unique_id=7197002]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D27" unique_id=1504413499]
+modulate = Color(0.9331609, 0.8403922, 0, 1)
+position = Vector2(100.000015, -423)
+scale = Vector2(18.999998, 16.000002)
+mesh = SubResource("QuadMesh_hqns4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D27" unique_id=13569481]
+position = Vector2(97, -423)
+shape = SubResource("RectangleShape2D_bjha6")
+
+[node name="MeshInstance2D2" type="MeshInstance2D" parent="StaticBody2D27" unique_id=1084339289]
+modulate = Color(0.9331609, 0.8403922, 0, 1)
+position = Vector2(101.5, -521)
+scale = Vector2(18.999998, 16.000002)
+mesh = SubResource("QuadMesh_hqns4")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D27" unique_id=1839780670]
+position = Vector2(101.499985, -521)
+shape = SubResource("RectangleShape2D_x0ka3")
+
+[node name="StaticBody2D31" type="StaticBody2D" parent="." unique_id=384144985]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D31" unique_id=77400549]
+modulate = Color(0.9331609, 0.8403922, 0, 1)
+position = Vector2(334, -523)
+scale = Vector2(18.999998, 16.000002)
+mesh = SubResource("QuadMesh_hqns4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D31" unique_id=2146155127]
+position = Vector2(334, -523)
+shape = SubResource("RectangleShape2D_x0ka3")
+
+[node name="MeshInstance2D2" type="MeshInstance2D" parent="StaticBody2D31" unique_id=1611098020]
+modulate = Color(0.9331609, 0.8403922, 0, 1)
+position = Vector2(420, -527)
+scale = Vector2(18.999998, 16.000002)
+mesh = SubResource("QuadMesh_hqns4")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D31" unique_id=17373149]
+position = Vector2(421, -527)
+shape = SubResource("RectangleShape2D_x0ka3")
+
+[node name="StaticBody2D33" type="StaticBody2D" parent="." unique_id=1515435410]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D33" unique_id=1028966274]
+modulate = Color(0.9331609, 0.8403922, 0, 1)
+position = Vector2(487.00003, -499)
+scale = Vector2(18.999998, 16.000002)
+mesh = SubResource("QuadMesh_hqns4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D33" unique_id=1641235417]
+position = Vector2(487, -499)
+shape = SubResource("RectangleShape2D_x0ka3")
+
+[node name="MeshInstance2D2" type="MeshInstance2D" parent="StaticBody2D33" unique_id=1416339378]
+modulate = Color(0.9331609, 0.8403922, 0, 1)
+position = Vector2(451.00003, -455)
+scale = Vector2(18.999998, 16.000002)
+mesh = SubResource("QuadMesh_hqns4")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D33" unique_id=1865784702]
+position = Vector2(451, -454)
+shape = SubResource("RectangleShape2D_x0ka3")
+
+[node name="StaticBody2D28" type="StaticBody2D" parent="." unique_id=389163463]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D28" unique_id=501598665]
+modulate = Color(0.9331609, 0.8403922, 0, 1)
+position = Vector2(163, -421)
+scale = Vector2(18.999998, 16.000002)
+mesh = SubResource("QuadMesh_hqns4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D28" unique_id=1821777175]
+position = Vector2(172, -421)
+shape = SubResource("RectangleShape2D_e8dv2")
+
+[node name="MeshInstance2D2" type="MeshInstance2D" parent="StaticBody2D28" unique_id=273146666]
+modulate = Color(0.9331609, 0.8403922, 0, 1)
+position = Vector2(164.49998, -519)
+scale = Vector2(18.999998, 16.000002)
+mesh = SubResource("QuadMesh_hqns4")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D28" unique_id=2095700821]
+position = Vector2(164.49998, -520)
+shape = SubResource("RectangleShape2D_x0ka3")
+
+[node name="StaticBody2D29" type="StaticBody2D" parent="." unique_id=1142154699]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D29" unique_id=1174187629]
+modulate = Color(0.9331609, 0.8403922, 0, 1)
+position = Vector2(227.00002, -425)
+scale = Vector2(18.999998, 16.000002)
+mesh = SubResource("QuadMesh_hqns4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D29" unique_id=587508004]
+position = Vector2(235, -426)
+shape = SubResource("RectangleShape2D_e8dv2")
+
+[node name="MeshInstance2D2" type="MeshInstance2D" parent="StaticBody2D29" unique_id=109481596]
+modulate = Color(0.9331609, 0.8403922, 0, 1)
+position = Vector2(228.5, -523)
+scale = Vector2(18.999998, 16.000002)
+mesh = SubResource("QuadMesh_hqns4")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D29" unique_id=488161201]
+position = Vector2(229.49998, -524)
+shape = SubResource("RectangleShape2D_x0ka3")
+
+[node name="StaticBody2D30" type="StaticBody2D" parent="." unique_id=1007309238]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D30" unique_id=681150246]
+modulate = Color(0.9331609, 0.8403922, 0, 1)
+position = Vector2(291, -426)
+scale = Vector2(18.999998, 16.000002)
+mesh = SubResource("QuadMesh_hqns4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D30" unique_id=1628752497]
+position = Vector2(301, -427)
+shape = SubResource("RectangleShape2D_e8dv2")
+
+[node name="MeshInstance2D2" type="MeshInstance2D" parent="StaticBody2D30" unique_id=1420037034]
+modulate = Color(0.9331609, 0.8403922, 0, 1)
+position = Vector2(292.5, -524)
+scale = Vector2(18.999998, 16.000002)
+mesh = SubResource("QuadMesh_hqns4")
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="StaticBody2D30" unique_id=1579652294]
+position = Vector2(292.5, -524)
+shape = SubResource("RectangleShape2D_x0ka3")
+
+[node name="StaticBody2D16" type="StaticBody2D" parent="." unique_id=1058140003]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D16" unique_id=550471844]
+modulate = Color(0.16862746, 1, 0.078431375, 1)
+position = Vector2(232.5, -298)
+scale = Vector2(18.999998, 16.000002)
+mesh = SubResource("QuadMesh_hqns4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D16" unique_id=331722383]
+position = Vector2(242.375, -298)
+shape = SubResource("RectangleShape2D_d2bti")
+
+[node name="StaticBody2D11" type="StaticBody2D" parent="." unique_id=423376332]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D11" unique_id=553104743]
+position = Vector2(441, -198)
+scale = Vector2(18.999998, 16.000002)
+mesh = SubResource("QuadMesh_hqns4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D11" unique_id=698459690]
+position = Vector2(441, -198.75)
+shape = SubResource("RectangleShape2D_x0ka3")
+
+[node name="StaticBody2D12" type="StaticBody2D" parent="." unique_id=1359277320]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D12" unique_id=1793211561]
+position = Vector2(511, -236)
+scale = Vector2(18.999998, 16.000002)
+mesh = SubResource("QuadMesh_hqns4")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D12" unique_id=1744550157]
+position = Vector2(511, -236)
+shape = SubResource("RectangleShape2D_x0ka3")
+
+[node name="StaticBody2D7" type="StaticBody2D" parent="." unique_id=1580028038]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D7" unique_id=2000915981]
+position = Vector2(428.25, -46)
+scale = Vector2(37.5, 16.000002)
+mesh = SubResource("QuadMesh_x0ka3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D7" unique_id=403491139]
+position = Vector2(428.3125, -46)
+shape = SubResource("RectangleShape2D_0h7mo")
+
+[node name="StaticBody2D8" type="StaticBody2D" parent="." unique_id=1806671406]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D8" unique_id=1474418207]
+position = Vector2(523, -84)
+scale = Vector2(37.5, 16.000002)
+mesh = SubResource("QuadMesh_x0ka3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D8" unique_id=780765202]
+position = Vector2(523, -84)
+shape = SubResource("RectangleShape2D_0h7mo")
+
+[node name="StaticBody2D9" type="StaticBody2D" parent="." unique_id=1377935709]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D9" unique_id=2135429914]
+position = Vector2(427, -116)
+scale = Vector2(37.5, 16.000002)
+mesh = SubResource("QuadMesh_x0ka3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D9" unique_id=248794118]
+position = Vector2(427, -116)
+shape = SubResource("RectangleShape2D_0h7mo")
+
+[node name="StaticBody2D10" type="StaticBody2D" parent="." unique_id=1992427725]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D10" unique_id=1915319337]
+position = Vector2(523, -162)
+scale = Vector2(37.5, 16.000002)
+mesh = SubResource("QuadMesh_x0ka3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D10" unique_id=1789464482]
+position = Vector2(523, -162)
+shape = SubResource("RectangleShape2D_0h7mo")
 
 [node name="StaticBody2D2" type="StaticBody2D" parent="." unique_id=1984226669]
 
 [node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D2" unique_id=2005725884]
-position = Vector2(-56.999996, -22)
-scale = Vector2(115.99999, 5.5)
+position = Vector2(218.24998, -67.00001)
+scale = Vector2(132.49998, 15.750001)
 mesh = SubResource("QuadMesh_kdubu")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D2" unique_id=666542048]
-position = Vector2(-57, -22)
+position = Vector2(218.25, -67)
+shape = SubResource("RectangleShape2D_q6r6c")
+
+[node name="StaticBody2D14" type="StaticBody2D" parent="." unique_id=1298257477]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D14" unique_id=1037493664]
+modulate = Color(0.16862746, 1, 0.078431375, 1)
+position = Vector2(327, -266)
+scale = Vector2(130.50002, 15.750001)
+mesh = SubResource("QuadMesh_kdubu")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D14" unique_id=496236407]
+position = Vector2(326.5, -265)
+shape = SubResource("RectangleShape2D_q6r6c")
+
+[node name="StaticBody2D13" type="StaticBody2D" parent="." unique_id=1360856949]
+
+[node name="MeshInstance2D" type="MeshInstance2D" parent="StaticBody2D13" unique_id=589156637]
+position = Vector2(73.24998, -153)
+scale = Vector2(128.49997, 15.750001)
+mesh = SubResource("QuadMesh_kdubu")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="StaticBody2D13" unique_id=2022177789]
+position = Vector2(73, -153)
 shape = SubResource("RectangleShape2D_q6r6c")
 
 [node name="Door" type="Sprite2D" parent="." unique_id=617213738]
-position = Vector2(22.5, 4)
+position = Vector2(511.00006, -252)
+scale = Vector2(0.46875, 0.5)
+texture = ExtResource("6_hqns4")
+
+[node name="Door3" type="Sprite2D" parent="." unique_id=813328742]
+position = Vector2(363.00003, -709)
+scale = Vector2(0.46875, 0.5)
+texture = ExtResource("6_hqns4")
+
+[node name="Door4" type="Sprite2D" parent="." unique_id=1085895856]
+position = Vector2(378, -709)
+scale = Vector2(0.46875, 0.5)
+texture = ExtResource("6_hqns4")
+
+[node name="Door2" type="Sprite2D" parent="." unique_id=2110872181]
+position = Vector2(11.000015, -417)
 scale = Vector2(0.46875, 0.5)
 texture = ExtResource("6_hqns4")
 
 [node name="Enemy1" type="Sprite2D" parent="." unique_id=1903865411]
-position = Vector2(54, 4)
+position = Vector2(221, -82)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("7_x0ka3")
+
+[node name="Enemy8" type="Sprite2D" parent="." unique_id=1829024256]
+position = Vector2(102, -170)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("7_x0ka3")
+
+[node name="Enemy11" type="Sprite2D" parent="." unique_id=749788513]
+position = Vector2(297.5, -282)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("7_x0ka3")
+
+[node name="Enemy12" type="Sprite2D" parent="." unique_id=248063697]
+position = Vector2(387, -445)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("7_x0ka3")
+
+[node name="Enemy17" type="Sprite2D" parent="." unique_id=655223006]
+position = Vector2(-151, -679)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("7_x0ka3")
+
+[node name="Enemy18" type="Sprite2D" parent="." unique_id=1862871555]
+position = Vector2(192, -677)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("7_x0ka3")
+
+[node name="Enemy9" type="Sprite2D" parent="." unique_id=740359411]
+position = Vector2(50, -169)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("7_x0ka3")
 
 [node name="Goal" type="Sprite2D" parent="." unique_id=705303297]
-position = Vector2(71, 4.0000005)
+position = Vector2(406, -709)
 scale = Vector2(0.49999997, 0.49999997)
 texture = ExtResource("8_0h7mo")
 
 [node name="Key" type="Sprite2D" parent="." unique_id=317753666]
-position = Vector2(38, 4)
+position = Vector2(73, -210)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("9_nr8wp")
+
+[node name="Key2" type="Sprite2D" parent="." unique_id=2073257566]
+position = Vector2(-51, -366)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("9_nr8wp")
+
+[node name="Key3" type="Sprite2D" parent="." unique_id=346571753]
+position = Vector2(196, -584)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("9_nr8wp")
+
+[node name="Key4" type="Sprite2D" parent="." unique_id=37744073]
+position = Vector2(-187, -680)
 scale = Vector2(0.5, 0.5)
 texture = ExtResource("9_nr8wp")
 
 [node name="Trap" type="Sprite2D" parent="." unique_id=1987476361]
-position = Vector2(87, 4)
+position = Vector2(533, -84)
 scale = Vector2(0.5, 0.5)
+texture = ExtResource("10_d2bti")
+
+[node name="Trap2" type="Sprite2D" parent="." unique_id=1033176897]
+position = Vector2(437, -116)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("10_d2bti")
+
+[node name="Trap6" type="Sprite2D" parent="." unique_id=1486404708]
+position = Vector2(54, -481)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("10_d2bti")
+
+[node name="Trap9" type="Sprite2D" parent="." unique_id=614480412]
+position = Vector2(119, -423)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("10_d2bti")
+
+[node name="Trap14" type="Sprite2D" parent="." unique_id=1485871080]
+position = Vector2(82, -423)
+scale = Vector2(0.50000006, 0.5)
+texture = ExtResource("10_d2bti")
+
+[node name="Trap10" type="Sprite2D" parent="." unique_id=924628471]
+position = Vector2(181, -421)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("10_d2bti")
+
+[node name="Trap11" type="Sprite2D" parent="." unique_id=471840897]
+position = Vector2(245, -426)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("10_d2bti")
+
+[node name="Trap12" type="Sprite2D" parent="." unique_id=1743325215]
+position = Vector2(310, -427)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("10_d2bti")
+
+[node name="Trap13" type="Sprite2D" parent="." unique_id=1257549238]
+position = Vector2(429.5, -429)
+scale = Vector2(0.78125, 0.5)
+texture = ExtResource("10_d2bti")
+
+[node name="Trap7" type="Sprite2D" parent="." unique_id=1000224554]
+position = Vector2(-203, -662)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("10_d2bti")
+
+[node name="Trap8" type="Sprite2D" parent="." unique_id=1687098694]
+position = Vector2(-169, -662)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("10_d2bti")
+
+[node name="Trap3" type="Sprite2D" parent="." unique_id=2095477596]
+position = Vector2(533, -162)
+scale = Vector2(0.5, 0.5)
+texture = ExtResource("10_d2bti")
+
+[node name="Trap4" type="Sprite2D" parent="." unique_id=1829610104]
+position = Vector2(252, -298)
+scale = Vector2(0.62499976, 0.5)
+texture = ExtResource("10_d2bti")
+
+[node name="Trap5" type="Sprite2D" parent="." unique_id=909659282]
+position = Vector2(-51, -318)
+scale = Vector2(0.62499976, 0.5)
 texture = ExtResource("10_d2bti")
 
 [node name="Enemy2" type="Sprite2D" parent="." unique_id=2104450671]
 position = Vector2(103, 3.999998)
+scale = Vector2(0.46875, 0.46875)
+texture = ExtResource("11_ta5nu")
+
+[node name="Enemy3" type="Sprite2D" parent="." unique_id=156579846]
+position = Vector2(246.00002, 4)
+scale = Vector2(0.46875, 0.46875)
+texture = ExtResource("11_ta5nu")
+
+[node name="Enemy4" type="Sprite2D" parent="." unique_id=97652676]
+position = Vector2(342.00003, -59.000004)
+scale = Vector2(0.46875, 0.46875)
+texture = ExtResource("11_ta5nu")
+
+[node name="Enemy5" type="Sprite2D" parent="." unique_id=1203509056]
+position = Vector2(341.00003, -121.00001)
+scale = Vector2(0.46875, 0.46875)
+texture = ExtResource("11_ta5nu")
+
+[node name="Enemy7" type="Sprite2D" parent="." unique_id=663635445]
+position = Vector2(554, -124.00001)
+scale = Vector2(0.46875, 0.46875)
+texture = ExtResource("11_ta5nu")
+
+[node name="Enemy10" type="Sprite2D" parent="." unique_id=1541203751]
+position = Vector2(345.50003, -282.00003)
+scale = Vector2(0.46875, 0.46875)
+texture = ExtResource("11_ta5nu")
+
+[node name="Enemy13" type="Sprite2D" parent="." unique_id=634091614]
+position = Vector2(515.00006, -553)
+scale = Vector2(0.46875, 0.46875)
+texture = ExtResource("11_ta5nu")
+
+[node name="Enemy14" type="Sprite2D" parent="." unique_id=1794587104]
+position = Vector2(291.00003, -507)
+scale = Vector2(0.46875, 0.46875)
+texture = ExtResource("11_ta5nu")
+
+[node name="Enemy15" type="Sprite2D" parent="." unique_id=2036896964]
+position = Vector2(196.00003, -502.00006)
+scale = Vector2(0.46875, 0.46875)
+texture = ExtResource("11_ta5nu")
+
+[node name="Enemy19" type="Sprite2D" parent="." unique_id=887445841]
+position = Vector2(190.00002, -725)
+scale = Vector2(0.46875, 0.46875)
+texture = ExtResource("11_ta5nu")
+
+[node name="Enemy21" type="Sprite2D" parent="." unique_id=1993362410]
+position = Vector2(110, -728.00006)
+scale = Vector2(0.46875, 0.46875)
+texture = ExtResource("11_ta5nu")
+
+[node name="Enemy20" type="Sprite2D" parent="." unique_id=1709915567]
+position = Vector2(306, -709.00006)
+scale = Vector2(0.46875, 0.46875)
+texture = ExtResource("11_ta5nu")
+
+[node name="Enemy16" type="Sprite2D" parent="." unique_id=920771252]
+position = Vector2(100, -501.00003)
+scale = Vector2(0.46875, 0.46875)
+texture = ExtResource("11_ta5nu")
+
+[node name="Enemy6" type="Sprite2D" parent="." unique_id=853533311]
+position = Vector2(221.00003, -120.00001)
 scale = Vector2(0.46875, 0.46875)
 texture = ExtResource("11_ta5nu")
